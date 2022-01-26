@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# POKEDEX APP CON REACT
+## Integrantes :
+### ABEL QUEKQAÑO QUISPE
+### DANIEL CARRASCO CUNZA
+### VANESSA MENDOZA INOÑAN
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

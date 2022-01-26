@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 5px;
+  }
+  
+  body{
+    text-align: center;
+    padding: 0px;
+    background-image: url("https://www.itl.cat/pngfile/big/114-1147438_fondos-de-pantalla-fondo-de-videos-para-edicion.jpg");
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .contenedor > div {
+    margin: auto;
+  }
+
+  .card{
+    width: 25rem;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(to right, rgb(177, 239, 241), white);
+    border: 5px solid rgb(22, 133, 223);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    overflow: hidden;
+    color: black;
+  }
+
+  .card:hover{
+    background:rgb(255, 238, 0);
+    border: 5px solid rgb(223, 22, 22);
+  }
+
+   .imgPokemon {
+     width: 15rem;
+     height: 15rem; 
+   }
+
+   .imgPokemon img{
+    width: 100%;
+    height: 100%; 
+  }
+
+   .imgModal{
+     width: 10rem;
+     height: 10rem;
+     margin: auto;
+   }
+   .imgModal img{
+    width: 100%;
+    height: 100%;
+  }
+
+   .navbar1 img {
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   .navbar1{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .pagination span{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(251, 255, 0);
+  }
+
+  input, textarea { 
+	  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+h5{
+  font-family: solid;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  text-align: left;
+  font-weight: bold;
 }
+.modal-content {
+  background: rgb(150, 231, 252);
+}
+.type {
+  text-transform: uppercase;
+  color: rgb(15, 15, 15);
+  font-style: italic;
+}
+
+
+
+
+
+
+  
